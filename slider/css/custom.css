@@ -5,17 +5,17 @@
 
 .slider .swiper-button-next,
 .slider .swiper-button-prev{
-    width: 66px;
-    height: 66px;
+    width: 60px;
+    height: 60px;
     box-shadow: 0 8px 13px 0 rgba(206, 207, 209, 0.9);
     background: #F7F7F7;
 }
 
 .slider .swiper-button-next{
-    right: -33px;
+    right: -30px;
 }
 .slider .swiper-button-prev{
-    left: -33px;
+    left: -30px;
 }
 
 .slider .swiper-button-next svg,
@@ -38,6 +38,10 @@
 .slider h2{
     margin-bottom: 0;
     text-align: center;
+}
+
+.slider .swiper-pagination-bullet:not(:last-child){
+    margin: 0 5px 0 0 !important;
 }
 
 .slider .swiper-pagination-bullets.swiper-pagination-horizontal{
